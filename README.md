@@ -8,3 +8,6 @@ this alu is part has three inputs and two outputs
 ### *Outputs*
 - result is 64 bit
 - zero is wire that is high if result is zero
+
+##### add tests
+(./pics/alu_tb_add.md)
