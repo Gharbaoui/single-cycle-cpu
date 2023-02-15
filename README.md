@@ -11,3 +11,6 @@ this alu is part has three inputs and two outputs
 
 ##### add tests
 ![add test](./pics/alu_tb_add.md)
+
+##### sub tests
+![sub test](./pics/alu_tb_sub.md)
