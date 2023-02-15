@@ -17,3 +17,7 @@ this alu is part has three inputs and two outputs
 
 ##### and tests
 ![and test](./pics/alu_tb_and.md)
+
+
+##### or tests
+![or test](./pics/alu_tb_or.md)
