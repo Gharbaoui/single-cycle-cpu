@@ -13,6 +13,8 @@
 	0110 => or
 */
 
+`timescale 1 ps / 1 ps
+
 module	alu(
 	input wire [63:0] a, b,
 	input wire [3:0] op,
@@ -27,6 +29,7 @@ module	alu(
 	assign zero = tmp;
 
 	always @ (a or b or op) begin
+		#100
 		case (op)
 		4'b0000:
 			result = a + b;
