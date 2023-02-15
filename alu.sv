@@ -14,13 +14,13 @@
 */
 
 module	alu(
-	input wire [31:0] a, b,
+	input wire [63:0] a, b,
 	input wire [3:0] op,
-	output wire [31:0] out,
+	output wire [63:0] out,
 	output wire zero
 );
 
-	reg[31:0] result;
+	reg[63:0] result;
 	reg tmp;
 
 	assign out = result;
