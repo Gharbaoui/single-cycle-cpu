@@ -1,6 +1,6 @@
 `include "alu.sv"
 
-`timescale	1 ns / 1 ns
+`timescale	1 ps / 1 ps
 
 module	alu_tb;
 	reg [63:0] a, b;
@@ -26,11 +26,11 @@ module	alu_tb;
 		a = 0;
 		b = 0;
 		/* output shoud be zero */
-		#5
+		#115
 		a = 1;
 		b = 2;
 		/* output shoud be 3 */
-		#5;
+		#200;
 	end
 
 
