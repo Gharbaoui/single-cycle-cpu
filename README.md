@@ -10,4 +10,4 @@ this alu is part has three inputs and two outputs
 - zero is wire that is high if result is zero
 
 ##### add tests
-(./pics/alu_tb_add.md)
+![add test](./pics/alu_tb_add.md)
