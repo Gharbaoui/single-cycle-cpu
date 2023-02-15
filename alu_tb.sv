@@ -31,6 +31,18 @@ module	alu_tb;
 		b = 2;
 		/* output shoud be 3 */
 		#200;
+
+		op = 4'b1000;
+		/* testing sub */
+		a = 2;
+		b = 2;
+		#115
+		a = 4;
+		b = 5;
+		#115
+		a = 5;
+		b = 4;
+		#200;
 	end
 
 
