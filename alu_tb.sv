@@ -26,11 +26,11 @@ module	alu_tb;
 		a = 0;
 		b = 0;
 		/* output shoud be zero */
-		#10
+		#5
 		a = 1;
 		b = 2;
 		/* output shoud be 3 */
-		#10;
+		#5;
 	end
 
 
