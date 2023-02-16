@@ -26,7 +26,14 @@ module	register_file_tb;
 		r2 = 0;
 		we = 0;
 		/* at first data should be zero */
-		#210;
+		#210
+		w = 0; // write to register 0
+		wd = 8; // data to be written
+		/* should not update register file cuz we is false */
+		#210
+		we = 1;
+		#240;
+		
 	end
 
 endmodule
