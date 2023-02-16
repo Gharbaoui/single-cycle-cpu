@@ -38,4 +38,4 @@ register file that has 32 register and each register is of size 64 bit
 - 64 bit readData2
 
 ##### initial tests
-![initial test](./pics/register_file_intial.png)
+![initial test](./pics/register_file_initial.png)
