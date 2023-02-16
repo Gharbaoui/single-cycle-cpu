@@ -18,16 +18,15 @@ module	register_file(
 	end
 
 
-	always @ (readRegister1 or readRegister2) begin
-		#200
-		readData1 = registers[readRegister1];
-		readData2 = registers[readRegister2];
-	end
-
-	always @ (writeRegister or writeData or regWrite) begin
+	always @ (
+		readRegister1 or readRegister2 or
+		writeRegister or writeData or regWrite
+	) begin
 		#200
 		if (regWrite == 1'b1)
 			registers[writeRegister] = writeData;
+		readData1 = registers[readRegister1];
+		readData2 = registers[readRegister2];
 	end
 
 endmodule
