@@ -39,3 +39,6 @@ register file that has 32 register and each register is of size 64 bit
 
 ##### initial tests
 ![initial test](./pics/register_file_initial.png)
+
+##### write tests
+![write test](./pics/register_file_write.png)
