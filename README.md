@@ -42,3 +42,12 @@ register file that has 32 register and each register is of size 64 bit
 
 ##### write tests
 ![write test](./pics/register_file_write.png)
+
+##### instruction memory tests
+![](./pics/instruction_memory.png)
+
+```
+there's no write signal because at the start it will load the program
+from file called program.txt this program will hold the instructions
+to be executed later
+```
