@@ -1,7 +1,7 @@
 `include "instruction_memory.sv"
 
 module	instruction_memory_tb;
-	reg [7:0] address;
+	reg [63:0] address;
 	wire [31:0] ins;
 
 	instruction_memory u0(

@@ -6,7 +6,7 @@
 
 
 module	instruction_memory(
-	input [7:0] address,
+	input [63:0] address,
 	output reg [31:0] ins
 );
 
